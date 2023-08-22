@@ -164,6 +164,7 @@ body{
 }
 .order-now:hover{
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    transition: 0.1s;
 }
 
 .how_to{
@@ -176,6 +177,14 @@ body{
     color: black;
     font-family: var(--plus-jakarta-sans);
     cursor: pointer;
+    border-radius: 36px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+.how_to:hover{
+    border: 1px solid;
+    transition: 0.5s;
+    
 }
 .how_to img{
     margin-right: 12px;
